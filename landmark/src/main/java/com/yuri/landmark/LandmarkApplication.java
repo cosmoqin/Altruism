@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LandmarkApplication {
 
 	public static void main(String[] args) {
+		System.out.println("LandmarkApplication.main()");
 		SpringApplication.run(LandmarkApplication.class, args);
 	}
 
